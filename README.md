@@ -36,6 +36,40 @@ SEARXNG_SECRET_KEY=your_searxng_secret_key_here
 GOOGLE_API_KEY=your_google_api_key_here
 ```
 
+#### How to set up your Discord Bot Token
+
+**STEP 1: Create a Bot on Discord Developer Portal**  
+Go to: https://discord.com/developers/applications
+
+- Click on **"New Application"**
+- Name your application (e.g., MyFirstBot) and click **Create**
+
+**STEP 2: Add a Bot to Your Application**  
+- In the application menu (left sidebar), go to **“Bot”**
+- Click **“Add Bot”** → Yes, do it!
+- Optionally:
+  - Change the bot’s username
+  - Upload a bot avatar
+  - Enable **MESSAGE CONTENT INTENT** if your bot needs to read message content
+
+**STEP 3: Copy Your Bot Token**  
+- Under the **Bot** tab, click **“Reset Token”** to generate a token
+- Copy the token – it’s like a password. Keep it secret and store it safely (you'll use it in your code)
+
+**STEP 4: Set Bot Permissions (Scopes & Privileges)**  
+- Go to **OAuth2 → URL Generator**
+- Select the following under **Scopes**:
+  - `bot`
+  - (optionally) `applications.commands` if you’re using slash commands
+- Under **Bot Permissions**, choose what your bot should be able to do:
+  - E.g., Send Messages, Read Message History, Embed Links, etc.
+- Copy the generated URL from the bottom of the page
+
+**STEP 5: Invite the Bot to Your Server**  
+- Paste the copied URL into your browser
+- Select your server (you must have Manage Server permissions)
+- Click **Authorize**
+
 ### 3. Configure SearXNG
 
 - Edit `settings.yml` as needed.
