@@ -70,12 +70,7 @@ Go to: https://discord.com/developers/applications
 - Select your server (you must have Manage Server permissions)
 - Click **Authorize**
 
-### 3. Configure SearXNG
-
-- Edit `settings.yml` as needed.
-- The secret key is loaded from the environment variable `SEARXNG_SECRET_KEY`.
-
-### 4. Build and run with Docker Compose
+### 3. Build and run with Docker Compose
 
 ```sh
 docker compose up --build
