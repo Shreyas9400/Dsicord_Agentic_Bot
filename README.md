@@ -22,8 +22,8 @@ A Discord bot for parallel web research, in-depth reporting, and context-aware c
 ### 1. Clone the repository
 
 ```sh
-git clone https://github.com/yourusername/yourrepo.git
-cd yourrepo
+git clone https://github.com/Shreyas9400/Discord_Agentic_Bot.git
+cd Discord_Agentic_Bot
 ```
 
 ### 2. Configure environment variables
