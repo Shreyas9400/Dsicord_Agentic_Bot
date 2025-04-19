@@ -32,7 +32,7 @@ Create a `.env` file (do **not** commit this file):
 
 ```
 DISCORD_TOKEN=your_discord_token_here
-SEARXNG_SECRET_KEY=your_searxng_secret_key_here
+SEARXNG_SECRET_KEY=your_searxng_secret_key_here  # Any random long string, used for SearXNG security
 GOOGLE_API_KEY=your_google_api_key_here
 ```
 
